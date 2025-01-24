@@ -135,6 +135,17 @@ delivered-imgs img:last-child {
   margin-bottom: 1.2rem;
 }
 
+.step-description {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .step-img{
-  width: 50%;
+  width: 35%;
 }

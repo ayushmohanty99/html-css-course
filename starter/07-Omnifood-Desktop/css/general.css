@@ -65,7 +65,8 @@ body {
 
 .grid {
   display: grid; 
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
@@ -81,6 +82,10 @@ body {
 }
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center {
+  align-items: center;
 }
 
 .heading-primary,
